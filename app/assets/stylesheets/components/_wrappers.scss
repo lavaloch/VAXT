@@ -1,0 +1,36 @@
+.bubble_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2000;
+  cursor: pointer;
+
+}
+
+.bubble_1_wrapper {
+  background-image: linear-gradient(to right, #BFE9FF, #FF6E7F);
+}
+
+.bubble_2_wrapper {
+  background-image: linear-gradient(to right, #E100FF, #7F00FF);
+}
+
+.bubble_3_wrapper {
+  background-image: linear-gradient(to right, #F4D194, #F8D3DC);
+}
+
+.bubble_4_wrapper {
+  background-image: linear-gradient(to right, #29FFC6, #0CEBEB);
+}
+
+.bubble_5_wrapper {
+  background-image: linear-gradient(to right, #E927F3, #FCEC33);
+}
+
+.bubble_6_wrapper {
+  background-image: linear-gradient(to right, #5CD444, #FCEC69);
+}
