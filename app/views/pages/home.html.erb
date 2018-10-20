@@ -1,13 +1,12 @@
-<%= video_tag "back_vaxt.mp4", class: "background_video", autoplay: :autoplay,
-loop: :loop %>
+<%#= video_tag "back_vaxt.mp4", class: "background_video", autoplay: :autoplay,loop: :loop %>
 
 <div class="logo">
   <%= render 'svg/logo' %>
 </div>
 
-<div class="bubble_e_shop">
+<%= link_to "", target: "_blank", class: "bubble bubble_e_shop" do %>
   <span>ESHOP</span>
-</div>
+<% end %>
 
 <!-- BUBBLES -->
 
@@ -28,16 +27,17 @@ loop: :loop %>
 </div>
 
 <div class="bubble bubble_5">
-  <span>LINES</span>
+  <span>TYPOGRAPHY</span>
 </div>
 
 <div class="bubble bubble_6">
-  <span>LINES</span>
+  <span>TROUS</span>
 </div>
 
 <!-- WRAPPERS -->
 
 <div class="bubble_wrapper bubble_1_wrapper hidden">
+  <%= video_tag "dicktator.mp4", class: "dicktator_video", controls: true %>
 </div>
 
 <div class="bubble_wrapper bubble_2_wrapper hidden">
@@ -50,7 +50,97 @@ loop: :loop %>
 </div>
 
 <div class="bubble_wrapper bubble_5_wrapper hidden">
+  <div class="wrappi">
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo1.png", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo2.png", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo3.png", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo4.png", class: "projet_typo_img" %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo5.jpg", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo6.png", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo7.jpg", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo8.jpg", class: "projet_typo_img" %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo9.jpg", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo10.jpg", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo11.png", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo12.png", class: "projet_typo_img" %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo13.png", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo21.png", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo22.png", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo23.png", class: "projet_typo_img" %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo24.png", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo31.png", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo32.png", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo33.png", class: "projet_typo_img" %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo34.png", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <%= image_tag "typo35.png", class: "projet_typo_img" %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="bubble_wrapper bubble_6_wrapper hidden">
+  <%= image_tag "trous_1", class: "projet_trou_img" %>
+  <%= image_tag "trous_2", class: "projet_trou_img" %>
+  <%= image_tag "trous_3", class: "projet_trou_img" %>
+  <%= image_tag "trous_4", class: "projet_trou_img" %>
+  <%= image_tag "trous_5", class: "projet_trou_img" %>
 </div>
