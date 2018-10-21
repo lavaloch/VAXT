@@ -27,3 +27,20 @@
   color: #9AF04C;
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  .social_network {
+    width: 100px;
+    display: flex;
+    font-size: 16px;
+    position: absolute;
+    left: auto;
+    bottom: auto;
+    top: 5%;
+    right: 5%;
+    color: #9AF04C;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2000;
+  }
+}

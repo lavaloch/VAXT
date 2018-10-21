@@ -16,8 +16,10 @@ setTimeout(function() {
   setInterval(function(){
     $(".back_white").addClass("hidden");
   }, 40);
-}, 6000);
+}, 3000);
 
 setTimeout(function() {
-  $(".intro").addClass("hidden");
+  $(".intro").remove();
 }, 10000);
+
+
