@@ -6,12 +6,12 @@
   cursor: pointer;
   text-align: center;
   color: white;
-  font-size: 14px;
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  font-size: 12px;
+  ////box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .bubble:hover {
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  //box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .bubble_e_shop:link {
@@ -23,7 +23,7 @@
   background-color: #9AF04C;
   text-decoration: none;
   color: $white;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  //box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .bubble_e_shop:visited {
@@ -35,7 +35,7 @@
   background-color: #9AF04C;
   text-decoration: none;
   color: $white;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  //box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .bubble_e_shop:hover {
@@ -47,7 +47,7 @@
   background-color: #9AF04C;
   text-decoration: none;
   color: $white;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  //box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .bubble_e_shop:selected {
@@ -59,14 +59,14 @@
   background-color: #9AF04C;
   text-decoration: none;
   color: $white;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  //box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .bubble_1 {
   width: 160px;
   height: 160px;
   line-height: 160px;
-  top: 8%;
+  top: 40%;
   left: 40%;
 }
 
@@ -74,7 +74,7 @@
   width: 132px;
   height: 132px;
   line-height: 132px;
-  top: 30%;
+  top: 38%;
   left: 15%;
 }
 
@@ -83,7 +83,7 @@
   height: 45px;
   line-height: 45px;
   bottom: 30%;
-  right: 15%;
+  right: 42%;
   font-size: 12px;
 }
 
@@ -96,18 +96,18 @@
 }
 
 .bubble_5 {
-  width: 212px;
-  height: 212px;
-  line-height: 212px;
+  width: 130px;
+  height: 130px;
+  line-height: 130px;
   bottom: 10%;
   right: 30%;
 }
 
 .bubble_6 {
-  width: 93px;
-  height: 93px;
-  line-height: 93px;
-  top: 25%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  top: 38%;
   right: 25%;
 }
 
@@ -144,12 +144,12 @@
     cursor: pointer;
     text-align: center;
     color: white;
-    font-size: 14px;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    font-size: 12px;
+    //box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   }
 
   .bubble:hover {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    //box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
 
   .bubble_e_shop:link {
@@ -162,7 +162,7 @@
     background-color: #9AF04C;
     text-decoration: none;
     color: $white;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    //box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
 
   .bubble_e_shop:visited {
@@ -175,7 +175,7 @@
     background-color: #9AF04C;
     text-decoration: none;
     color: $white;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    //box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
 
   .bubble_e_shop:hover {
@@ -188,7 +188,7 @@
     background-color: #9AF04C;
     text-decoration: none;
     color: $white;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    //box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
 
   .bubble_e_shop:selected {
@@ -201,7 +201,7 @@
     background-color: #9AF04C;
     text-decoration: none;
     color: $white;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    //box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
 
   .bubble_1 {

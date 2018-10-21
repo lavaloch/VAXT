@@ -1,0 +1,54 @@
+.bubble_shadow {
+  background-color: black;
+  border-radius: 50%;
+  opacity: 0.07;
+  position: absolute;
+}
+
+.bubble_shadow_1 {
+  width: 130px;
+  height: 26px;
+  top: 355px;
+  left: 13%;
+}
+
+.bubble_shadow_2 {
+  width: 100px;
+  height: 20px;
+  top: 355px;
+  left: 13%;
+}
+
+.bubble_shadow_3 {
+  width: 26px;
+  height: 7px;
+  top: 84px;
+  left: 18%;
+}
+
+.bubble_shadow_4 {
+  width: 48px;
+  height: 12px;
+  top: 87px;
+  left: 21%;
+}
+
+.bubble_shadow_5 {
+  width: 101px;
+  height: 26px;
+  top: 140px;
+  left: 12%;
+}
+
+.bubble_shadow_6 {
+  width: 70px;
+  height: 12px;
+  top: 302px;
+  left: 23%;
+}
+
+@media screen and (max-height: 735px) {
+  .bubble_shadow {
+    display: none;
+  }
+}

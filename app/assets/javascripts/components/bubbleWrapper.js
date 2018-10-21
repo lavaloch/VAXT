@@ -1,5 +1,6 @@
 $(".bubble_1").click(function () {
   $(".bubble_1_wrapper").removeClass("hidden");
+  $("body").css( 'cursor', 'image-url(public/cross.png), auto' );
 });
 
 $(".bubble_1_wrapper").click(function () {
