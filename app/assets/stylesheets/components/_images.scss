@@ -11,3 +11,20 @@
   display: block;
   margin-bottom: 100px;
 }
+
+@media screen and (max-width: 768px) {
+  .projet_trou_img {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .projet_typo_img {
+    width: 85%;
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+  }
+}

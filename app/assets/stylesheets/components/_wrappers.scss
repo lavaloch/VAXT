@@ -35,3 +35,18 @@
 .bubble_6_wrapper {
   background-image: linear-gradient(to right, #5CD444, #FCEC69);
 }
+
+@media screen and (max-width: 768px) {
+  .bubble_wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2000;
+    cursor: pointer;
+    overflow: scroll;
+  }
+}

@@ -13,3 +13,14 @@
   margin: auto;
 }
 
+@media screen and (max-width: 768px) {
+  .dicktator_video {
+    display: block;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+}
