@@ -12,9 +12,6 @@
   margin: 25px;
   position: relative;
   text-align: center;
-  -webkit-animation: jump 2s infinite;
-  -moz-animation: jump 2s infinite;
-  animation: jump 2s infinite;
 }
 
 line {
@@ -291,6 +288,42 @@ line {
 //   top: 38%;
 //   right: 25%;
 // }
+
+.icon-btn-1 {
+  -webkit-animation: jump 2.1s infinite;
+  -moz-animation: jump 2.1s infinite;
+  animation: jump 2.1s infinite;
+}
+
+.icon-btn-2 {
+  -webkit-animation: jump 1.96s infinite;
+  -moz-animation: jump 1.96s infinite;
+  animation: jump 1.96s infinite;
+}
+
+.icon-btn-3 {
+  -webkit-animation: jump 2.08s infinite;
+  -moz-animation: jump 2.08s infinite;
+  animation: jump 2.08s infinite;
+}
+
+.icon-btn-4 {
+  -webkit-animation: jump 2.05s infinite;
+  -moz-animation: jump 2.05s infinite;
+  animation: jump 2.05s infinite;
+}
+
+.icon-btn-5 {
+  -webkit-animation: jump 1.97s infinite;
+  -moz-animation: jump 1.97s infinite;
+  animation: jump 1.97s infinite;
+}
+
+.icon-btn-6 {
+  -webkit-animation: jump 2.03s infinite;
+  -moz-animation: jump 2.03s infinite;
+  animation: jump 2.03s infinite;
+}
 
 .icon-btn-1:hover {
   background-image: linear-gradient(to right, #BFE9FF, #FF6E7F);
